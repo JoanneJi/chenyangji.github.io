@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Chenyang Joanne Ji"
+title                    : "Chenyang Ji"
 title_separator          : "-"
-name                     : &name "Chenyang Joanne Ji"
+name                     : &name "Chenyang Ji (季 辰阳)"
 description              : &description "Chenyang's Homepage!"
 url                      : https://joanneji.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,11 +23,11 @@ repository               : "joanneji/joanneji.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Chenyang Joanne Ji (季 辰阳)"
+  name             : "Chenyang Ji (季 辰阳)"
   pronouns         : "she/her"
   bio              : "A second-year PhD student at DoA, THU. I am working on HRS in exoplanets and exoplanet atmospheres."
   location         : "Beijing, China"
-  employer         : "Department of Astronomy, Tsinghua University"
+  employer         : "Department of Astronomy, THU"
   uri              : # URL
   email            : "jicy23@mails.tsinghua.edu.cn" 
 
