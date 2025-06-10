@@ -18,7 +18,7 @@ As seen above, I am an $\color{Turquoise}{\boldsymbol{observer}}$🔭🛰 workin
 
 ---
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/CV_Chenyang.pdf).
+You can find my [CV](../assets/CV_Chenyang.pdf) here.
 
 📧**Email:** [jicy23@mails.tsinghua.edu.cn](jicy23@mails.tsinghua.edu.cn), [joanneeeji@gmail.com](joanneeeji@gmail.com)
 
