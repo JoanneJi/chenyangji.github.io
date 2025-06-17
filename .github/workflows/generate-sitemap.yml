@@ -1,0 +1,29 @@
+name: Generate XML Sitemap
+
+on:
+  push:
+    branches:
+      - main # 或者您的GitHub Pages分支，通常是main或gh-pages
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Generate a sitemap
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 确保获取完整的提交历史，以便生成lastmod标签
+
+      - name: Generate the sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://joanneji.github.io/ # 您的GitHub Pages网址
+
+      - name: Commit sitemap.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Add/update sitemap.xml" || echo "No changes to sitemap.xml"
+          git push
