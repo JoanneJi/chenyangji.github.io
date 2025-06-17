@@ -157,6 +157,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - google870cf70396fe0f24.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -351,3 +352,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
